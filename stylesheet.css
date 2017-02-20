@@ -23,9 +23,11 @@ html, body {
   list-style-type: none;
   margin: 0;
   padding: 20px 0;
+  letter-spacing: 1.6px;
 }
 
 .nav li {
+  transition: 0.4s;
   color: #fff;
   display: inline;
   font-family: 'Raleway', sans-serif;
@@ -33,6 +35,21 @@ html, body {
   font-size: 12px;
   margin-right: 25px;
   text-transform: uppercase;
+}
+
+.nav li:hover {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 900;
+  padding: 24px 10px;
+  font-size: 12px;
+  cursor: pointer;
+
+
+}
+
+.activeBold {
+  font-weight: bold;
 }
 
 .main {
@@ -123,7 +140,3 @@ html, body {
   font-size: 11px;
 }
 
-.activeHover {
-background-color: #221177;
-
-}
