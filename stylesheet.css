@@ -26,10 +26,11 @@ html, body {
   letter-spacing: 1.6px;
 }
 
-.nav li {
+.nav li a{
+  display: inline;
+  text-decoration: none;
   transition: 0.4s;
   color: #fff;
-  display: inline;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -37,7 +38,7 @@ html, body {
   text-transform: uppercase;
 }
 
-.nav li:hover {
+.nav li a:hover {
   background-color: #ffffff;
   color: #333;
   font-weight: 900;
