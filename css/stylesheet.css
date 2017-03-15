@@ -87,7 +87,7 @@ html, body {
 }
 
 .jumbotron {
-  background: url(http://www.mathiasgerlach.com/data/files/2013/09/Vaillant_02.jpg) center;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/f3/80/83/f38083002636c66204c60bfbdf78f2a2.jpg) center;
   background-size: cover;
   height: 300px;
 }
@@ -141,17 +141,18 @@ html, body {
 }
 
 .main h1 {
-  color: #333;
+  color: rgba(255, 255, 255, 0.73);
   font-family: 'Lato-light', sans-serif;
   font-size: 70px;
   font-weight: 600;
-  margin-bottom: 80px;
+  margin-bottom: 56px;
   margin-top: 0;
   text-transform: uppercase;
 }
 
 .btn-main {
   background-color: #333;
+  border-radius: 4px;
   color: #fff;
   font-family: 'Lato-light', sans-serif;
   font-size: 18px;
@@ -160,10 +161,17 @@ html, body {
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  transition-duration: 0.8s;
+}
+
+.btn-main:hover {
+  background-color: rgb(89, 98, 121);
+  color: white;
 }
 
 .btn-second {
   border: 1px solid #333;
+  border-radius: 4px;
   color: #000;
   display: inline-block;
   font-family: 'Lato-light', sans-serif;
@@ -176,6 +184,9 @@ html, body {
   text-transform: uppercase;
 }
 
+.btn-second:hover {
+  background-color: rgb(226, 231, 244);
+}
 .supporting {
   padding-bottom: 100px;
   padding-top: 80px;
@@ -206,6 +217,29 @@ html, body {
   padding: 0 50px;
 }
 
+.certificates {
+  display: inline-block;
+  margin-left: 26%;
+}
+
+.certificates__img--1 {
+  width: 80px;
+  height: 80px;
+  margin-right: 110px;
+}
+
+.certificates__img--2 {
+  width: 80px;
+  height: 80px;
+  margin-right: 110px
+}
+
+.certificates__img--3 {
+  width: 80px;
+  height: 80px;
+  margin-right: 80px
+  }
+
 .clearfix {
   clear: both;
 }
@@ -213,7 +247,10 @@ html, body {
 .footer {
   background-color: #333;
   color: #fff;
-  padding: 30px 0;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer p {
@@ -221,6 +258,11 @@ html, body {
   font-size: 11px;
   text-transform: uppercase;
 }
+
+
+
+
+
 
 
 
@@ -243,10 +285,13 @@ html, body {
 
 
 
+
+
 .contact {
   position: absolute;
   top: calc(50% - (131px + 18px));
   width: 100%;
+
 }
 
 .contact__logo {
