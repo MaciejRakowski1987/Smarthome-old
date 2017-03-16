@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        <div id="red"></div>
-        <div id="blue"></div>
-        <div id="yellow"></div>
-        <div id="green"></div>
-    </body>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400, 600" rel="stylesheet">
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='js/script.js'></script>
+    <title>SmartHome</title>
+  </head>
+<body>
+  <nav class="header">
+    <div class="flex-container">
+      <ul class="header__nav">
+        <li class="header__nav-item header__nav-item--active">
+          <a href="index.html">Strona Glowna</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="oFirmie.html">O firmie</a>
+        </li>
+        <li class="header__nav-item header__nav-item--dropdownButton">
+          <a href="contact.html">Produkty</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="contact.html">Referencje</a>    <!-- before - "Nasi partnerzy" -->
+        </li>
+        <li class="header__nav-item header__nav-item--contact">
+          <a href="contact.html">Kontakt</a>
+        </li>
+        <div class="dropdown">
+          <a class="dropdown__link" href="#">Link 1</a>
+          <a class="dropdown__link" href="#">Link 2</a>
+          <a class="dropdown__link" href="#">Link 3</a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="flex-container">
+      <div class="main">
+        <h1>Smarthome</h1>
+        <a class="btn-main" href="contact.html">ZŁÓŻ ZAMÓWIENIE</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="supporting">
+    <div class="flex-container">
+
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1_mc6oM6PXGx6CW5qKsq_fmJqUjlqf_l37QSqQOTK5CLSv78">
+        <h2>Galleria</h2>
+        <p>Kliknij aby zobaczyć galerie: </p>
+        <a class="btn-second" href="gallery.html">dowiedz się więcej</a>
+      </div>
+
+      <div class="col">
+        <img src="https://www.iconexperience.com/_img/i_collection_png/512x512/plain/notebook.png">
+        <h2>Oferta</h2>
+          <p>Specjalizujemy się w: </p>
+        <a class="btn-second" href="Oferta.html">dowiedz się więcej</a>
+      </div>
+
+      <div class="col">
+        <img src="https://www.iconexperience.com/_img/i_collection_png/256x256/plain/tools.png">
+        <h2>Serwis</h2>
+        <p>Autoryzowany serwis urządzeń:</p>
+        <a class="btn-second" href="Serwis.html">dowiedz się więcej</a>
+      </div>
+  </div>
+
+    <div class="clearfix"></div>
+  </div>
+
+ <section class="flex-container">
+  <div class="certificates">
+    <a target="_blank" href="img/img1.bmp">
+      <img class="certificates__img--1" src="img/certi1.png"/>
+    </a>
+
+    <a target="_blank" href="img/img2.jpg">
+      <img class="certificates__img--2" src="img/certi2.jpg"/>
+    </a>
+
+    <a target="_blank" href="img/img3.jpg">
+      <img class="certificates__img--3" src="img/certi3.png"/>
+    </a>
+
+  </div>
+ </section>
+
+
+  <div class="footer">
+    <div class="flex-container">
+      <p>&copy; Smart home 2017</p>
+    </div>
+  </div>
+
+</body>
 </html>
