@@ -19,3 +19,6 @@ $().ready(function(){
 	highlightButtonOnDropdownActive();
 });
 
+$(document).ready(function() {
+    $(".main h1").delay(1000).animate({ opacity: 1 }, 1500);
+});
