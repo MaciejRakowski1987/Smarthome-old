@@ -148,6 +148,7 @@ html, body {
   margin-bottom: 56px;
   margin-top: 0;
   text-transform: uppercase;
+  opacity: 0;
 }
 
 .btn-main {
